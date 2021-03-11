@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+
+/* Media query for Desktop */
+@media screen and (max-width:1440px){
+    .wrapper{
+        background: #ffffff;
+        margin: 0 auto;
+        max-width: 30%;
+        position: relative;
+        top: 60px;
+        border-radius: 20px;
+        height: 100%;
+        z-index: 1;
+    }
+
+    .bottom-1{
+        width: 55%;
+        position: fixed;
+        top: -390px;
+        left: -120px;
+    }
+    
+    
+    .bottom-2{
+        width: 55%;
+        position: fixed;
+        bottom: -390px;
+        right: -120px;
+        
+    }
+
+}
+
+/* Media query for mobile */
+
+@media screen and (min-width:375px){
+    .wrapper{
+        background: #ffffff;
+        margin: 15% auto;
+        max-width: 80%;
+        position: relative;
+        top: 60px;
+        border-radius: 20px;
+        /* height: 100%; */
+        z-index: 1;
+    }
+
+    .bottom-1{
+        width: 40%;
+        position: fixed;
+        top: -50px;
+        left: -60px;
+    }
+
+    .bottom-2{
+        width: 40%;
+        position: fixed;
+        bottom: 90px;
+        right: -90px;
+    }
+
+}
+
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+
+.bg-img{
+    background-image: url(images/bg-pattern-card.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+}
+
+
+
+#author-bg{
+    position: relative;
+    top: 50px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-top: 10%;
+}
+
+
+.author-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.author-profile span{
+    font-weight: 100;
+    color: hsl(227, 10%, 46%);
+}
+
+
+.author-profile p{
+    margin-top: 5px;
+}
+ 
+
+.container, .row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.part{
+    margin: 0 15px;
+}
+
+.part h1{
+    color: hsl(0, 0%, 59%) ;
+}
+
+.part h4{
+    margin-bottom: 0;
+}
+
+.part p{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color: hsl(227, 10%, 46%);
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.attribution{
+   position: relative;
+   margin-top: 10px; 
+   top: 20px;
+}
+
+hr{
+    color: hsl(0, 0%, 59%);
+    opacity: 0.3;
+}
+
+
+
+
+
+
+
+
